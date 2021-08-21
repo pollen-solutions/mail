@@ -318,6 +318,7 @@ class Mailable implements MailableInterface
                 $this->setCss($css);
             } elseif ($css !== false) {
                 $this->setCss(file_get_contents($this->mail()->resources('/assets/css/default.css')));
+                $this->setInlineCss(false);
             }
         }
 
@@ -507,6 +508,7 @@ class Mailable implements MailableInterface
             'content_type' => null,
             /**
              * Css properties of the HTML message.
+             * {@internal true to use default CSS|false to disable it|a string of CSS properties.}
              * @var bool|string
              */
             'css'          => true,
