@@ -1,0 +1,118 @@
+/**
+ * Styles customization
+ * ---------------------------------------------------------------------------------------------------------------------
+ */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0 !important;
+    mso-line-height-rule: exactly;
+    background-color: #F4F4F4;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+a:active,
+a:focus,
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: blue;
+}
+
+.center {
+    width: 100%;
+    background-color: #F4F4F4;
+}
+
+.msoTableWrapper {
+    background-color: #F4F4F4;
+}
+
+.EmailContainer {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.tableEmailHeader {
+    max-width: 680px;
+}
+
+.rowHeaderContent > td {
+    padding: 20px 0;
+    text-align: center
+}
+
+.BodyHeader-logo {
+    height: auto;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+    color: #555555;
+}
+
+.tableEmailBody {
+    max-width: 680px;
+    margin: auto;
+}
+
+.rowBodyContent > td {
+    background-color: #FFFFFF;
+}
+
+.rowBodyContent-section > td {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #3B3B3B;
+}
+
+
+.rowBodyContent-section > td p {
+    margin: 0 0 10px;
+}
+
+
+.rowBodyContent-section > td div {
+    margin: 0;
+}
+
+.rowBodyContent-section--header > td {
+    padding: 20px;
+}
+
+.rowBodyContent-section--body > td {
+    padding: 0 20px;
+}
+
+.rowBodyContent-section--footer > td {
+    padding: 20px;
+}
+
+.rowBodyContent-section--subfooter > td {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: #CCCCCC;
+}
+
+.tableEmailFooter {
+    max-width: 680px;
+}
+
+.rowFooterContent > td {
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #CCCCCC;
+}

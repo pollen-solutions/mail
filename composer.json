@@ -1,0 +1,48 @@
+{
+  "name": "pollen-solutions/mail",
+  "description": "Pollen Solutions - Mail Component - Tools for creating and sending emails.",
+  "homepage": "https://www.presstify.com/pollen-solutions/mail/",
+  "keywords": [
+    "pollen-solutions",
+    "component",
+    "cookie"
+  ],
+  "time": "2021-08-20",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jordy Manner",
+      "email": "jordy@presstify.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "composer/composer": "^2.0",
+    "composer/installers": "~1.0",
+    "html2text/html2text": "^4.3",
+    "pelago/emogrifier": "^5.0",
+    "phpmailer/phpmailer": "^6.3",
+    "pollen-solutions/support": "^1.0",
+    "pollen-solutions/validation": "^1.0",
+    "pollen-solutions/view": "^1.0",
+    "pollen-solutions/view-extends": "^1.0",
+    "symfony/dom-crawler": "^5.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pollen\\Mail\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pollen\\Mail\\Test\\": "tests"
+    }
+  },
+  "suggest": {
+    "pollen-solutions/container" : "Pollen Solutions - Container Component - PSR-11 ready Dependencies Injection Container."
+  },
+  "minimum-stability": "dev"
+}
